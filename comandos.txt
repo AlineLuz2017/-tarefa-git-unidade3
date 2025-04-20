@@ -1,0 +1,18 @@
+git clone
+echo "Conteúdo 1" > arquivo1.txt
+echo "Conteúdo 2" > arquivo2.txt
+echo "Conteúdo 3" > arquivo3.txt
+git add .
+git commit -m "Alterações nos arquivos 1 e 2"
+git status
+git log --oneline
+git log --graph --all
+git log -p
+git revert HEAD --no-edit
+git stash push -m "Modificação no arquivo3"
+git stash pop
+git reflog
+git checkout d6cf550
+git tag v1.0.0 -m "Versão estável inicial"
+git checkout main
+
