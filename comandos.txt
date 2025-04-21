@@ -14,5 +14,6 @@ git stash pop
 git reflog
 git checkout d6cf550
 git tag v1.0.0 -m "Versão estável inicial"
+it push origin v1.0.0
 git checkout main
 
